@@ -35,6 +35,7 @@ module.exports = {
     description: 'Esse app mostra as minhas habilidades e experiencias como desenvolvedor full stack.',
     lang: 'pt-BR',
     background_color: "#3273dc",
+    theme_color:'#3273dc'
   },
   /*
   ** Plugins to load before mounting the App
