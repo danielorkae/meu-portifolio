@@ -76,6 +76,6 @@ export default {
     }
     .hero .logo{
         width: 450px !important;
-        height:190px;
+        height:auto;
     }
 </style>
