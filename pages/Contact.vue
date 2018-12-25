@@ -2,7 +2,7 @@
     <section id="contact" class="section">
         <div class="section-intro container">
    			<h5>Contato</h5>
-   			<h1>Propostas são todas bem-vindas</h1>
+   			<h1>Sempre aberto para propostas</h1>
    			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
    		</div> 
         <div class="contact-form container">

@@ -2,7 +2,7 @@
     <section id="about" class="section">
         <div class="section-intro container">
    			<h5>Sobre mim</h5>
-   			<h1>Deixe me falar um o pouco de mim</h1>
+   			<h1>Deixe me falar um pouco sobre mim</h1>
             <div class="columns">
                 <div class="column"></div>
                 <div class="column is-10">
@@ -74,7 +74,7 @@
                             </li>
                             <li>
                                 <strong>Laravel</strong>
-                                <progress class="progress is-small" value="65" max="100">15%</progress>
+                                <progress class="progress is-small" value="50" max="100">15%</progress>
                             </li>
                             <li>
                                 <strong>Codeigniter</strong>
