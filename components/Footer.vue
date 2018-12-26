@@ -75,7 +75,7 @@ footer .copyright span:last-child::after {
 	justify-content: center;
 }
 .footer-social ul{
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     margin: 0;
     padding: 0;
 	list-style: none;

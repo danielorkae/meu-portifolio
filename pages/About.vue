@@ -53,41 +53,56 @@
                         <ul class="info-list">
                             <li>
                                 <strong>HTML5</strong>
+                                <i class="fa fa-info-circle"></i>
                                 <progress class="progress is-small" value="90" max="100">15%</progress>
                             </li>
                             <li>
                                 <strong>css3</strong>
+                                <i class="fa fa-info-circle"></i>
                                 <progress class="progress is-small" value="68" max="100">15%</progress>
 
                             </li>
                             <li>
                                 <strong>Javascript</strong>
+                                <i class="fa fa-info-circle"></i>
                                 <progress class="progress is-small" value="67" max="100">15%</progress>
                             </li>
                              <li>
                                 <strong>VueJS</strong>
+                                <i class="fa fa-info-circle"></i>
                                 <progress class="progress is-small" value="80" max="100">15%</progress>
                             </li>
                             <li>
                                 <strong>PHP</strong>
+                                <i class="fa fa-info-circle"></i>
                                 <progress class="progress is-small" value="85" max="100">15%</progress>
                             </li>
                             <li>
                                 <strong>Laravel</strong>
+                                <i class="fa fa-info-circle"></i>
                                 <progress class="progress is-small" value="50" max="100">15%</progress>
                             </li>
                             <li>
                                 <strong>Codeigniter</strong>
+                                <i class="fa fa-info-circle modal-button" data-target="ci-modal" aria-haspopup="true" ></i>
                                 <progress class="progress is-small" value="90" max="100">15%</progress>
                             </li>
                         </ul>
                     </div>
                 </div>
-                
             </div>
         </div>
+        <cd-modal :id="'ci-modal'" :background="''" :title="'Codeigniter'" :body="'teste'" :active="''"/>
     </section>
 </template>
+<script>
+import Modal from '~/components/Modal.vue';
+export default {
+    components:{
+        'cd-modal': Modal
+    }
+}
+</script>
 <style scoped>
 #about{
     background-color: white;
@@ -95,10 +110,14 @@
 .section-intro>h1{
     color: #000000 !important;
 }
-.lead{
-    text-align:left;
-    padding: 0 8rem 0 4rem;
+@media (min-width: 1000px) {
+   .lead{
+        text-align:left;
+        padding: 0 8rem 0 4rem;
+    } 
 }
+
+
 
 #full-profile .info-list {
     list-style: none;

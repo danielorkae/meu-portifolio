@@ -54,7 +54,7 @@ module.exports = {
     '@nuxtjs/bulma',
     '@nuxtjs/font-awesome',
     '@nuxtjs/pwa'
-   ],
+  ],
   /*
   ** Axios module configuration
   */

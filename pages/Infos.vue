@@ -66,11 +66,13 @@
         margin-bottom: 0;
         font-family: "poppins-medium", sans-serif;
     }
-    .info-box:first-child{
-        border-left:none;
-    }
-    
-    .info-box{
-        border-left: 1px solid rgba(255, 255, 255, 0.12);
+    @media (min-width:769px){
+        .info-box:first-child{
+            border-left:none;
+        }
+        
+        .info-box{
+            border-left: 1px solid rgba(255, 255, 255, 0.12);
+        }
     }
 </style>
