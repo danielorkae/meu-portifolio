@@ -52,40 +52,39 @@
                         <p></p>
                         <ul class="info-list">
                             <li>
-                                <strong>HTML5</strong>
+                                <strong>HTML5 + css3</strong>
                                 <i class="fa fa-info-circle"></i>
-                                <progress class="progress is-small" value="90" max="100">15%</progress>
+                                <progress class="progress is-small" value="75" max="100">75%</progress>
                             </li>
                             <li>
-                                <strong>css3</strong>
+                                <strong>SEO</strong>
                                 <i class="fa fa-info-circle"></i>
-                                <progress class="progress is-small" value="68" max="100">15%</progress>
-
+                                <progress class="progress is-small" value="70" max="100">70%</progress>
                             </li>
                             <li>
                                 <strong>Javascript</strong>
                                 <i class="fa fa-info-circle"></i>
-                                <progress class="progress is-small" value="67" max="100">15%</progress>
+                                <progress class="progress is-small" value="67" max="100">67%</progress>
                             </li>
                              <li>
                                 <strong>VueJS</strong>
                                 <i class="fa fa-info-circle"></i>
-                                <progress class="progress is-small" value="80" max="100">15%</progress>
+                                <progress class="progress is-small" value="80" max="100">80%</progress>
                             </li>
                             <li>
                                 <strong>PHP</strong>
                                 <i class="fa fa-info-circle"></i>
-                                <progress class="progress is-small" value="85" max="100">15%</progress>
+                                <progress class="progress is-small" value="85" max="100">85%</progress>
                             </li>
                             <li>
                                 <strong>Laravel</strong>
                                 <i class="fa fa-info-circle"></i>
-                                <progress class="progress is-small" value="50" max="100">15%</progress>
+                                <progress class="progress is-small" value="50" max="100">50%</progress>
                             </li>
                             <li>
                                 <strong>Codeigniter</strong>
                                 <i class="fa fa-info-circle modal-button" data-target="ci-modal" aria-haspopup="true" ></i>
-                                <progress class="progress is-small" value="90" max="100">15%</progress>
+                                <progress class="progress is-small" value="90" max="100">90%</progress>
                             </li>
                         </ul>
                     </div>
