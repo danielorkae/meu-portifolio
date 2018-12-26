@@ -48,7 +48,7 @@
                 </div>
                 <div class="column">
                     <div id="skills">
-                        <h3>Habilidades</h3>
+                        <h3>Habilidades</h3> 
                         <p></p>
                         <ul class="info-list">
                             <li>
@@ -86,6 +86,13 @@
                                 <i class="fa fa-info-circle modal-button" data-target="ci-modal" aria-haspopup="true" ></i>
                                 <progress class="progress is-small" value="90" max="100">90%</progress>
                             </li>
+                            <li class="arrow-down">
+                                <div>
+                                    <strong>Ver Mais</strong>
+                                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                </div>
+                                
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -103,6 +110,27 @@ export default {
 }
 </script>
 <style scoped>
+.arrow-down{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.arrow-down div:hover{
+	color: #3273dc !important;
+
+}
+
+.arrow-down strong{
+    display:block;
+}
+.arrow-down i{
+    display:block;
+    margin-top:-15px;
+}
 #about{
     background-color: white;
 }
