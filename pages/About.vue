@@ -142,6 +142,7 @@
         <cd-modal :id="'vuenuxt-modal'" :background="''" :title="'VueJS e NuxtJS'" :body="'teste'"/>
         <cd-modal :id="'php-modal'" :background="''" :title="'PHP'" :body="'teste'"/>
         <cd-modal :id="'laravel-modal'" :background="''" :title="'Laravel'" :body="'teste'"/>
+        <cd-modal :id="'ci-modal'" :background="''" :title="'Codeigniter'" :body="'teste'"/>
         <cd-modal :id="'bootstrap-modal'" :background="''" :title="'Bootstrap'" :body="'teste'"/>
         <cd-modal :id="'mysql-modal'" :background="''" :title="'MySQL'" :body="'teste'"/>
         <cd-modal :id="'bulma-modal'" :background="''" :title="'Bulma'" :body="'teste'"/>
