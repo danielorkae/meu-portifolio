@@ -6,8 +6,8 @@
    			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
    		</div> 
         <div class="contact-form container">
-            <div class="columns">
-                <div class="column is-full">
+            <div class="">
+                <div class="column">
                     <div class="field">
                         <div class="control">
                             <input class="input is-large" type="text" placeholder="Nome">
@@ -15,8 +15,8 @@
                     </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column is-full">
+            <div class="">
+                <div class="column">
                     <div class="field">
                         <div class="control">
                             <input class="input is-large" type="email" placeholder="Email">
@@ -24,8 +24,8 @@
                     </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column is-full">
+            <div class="">
+                <div class="column">
                     <div class="field">
                         <div class="control">
                             <input class="input is-large" type="text" placeholder="Assunto">
@@ -33,8 +33,8 @@
                     </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column is-full">
+            <div class="">
+                <div class="column">
                     <div class="field">
                         <div class="control">
                             <textarea class="textarea" placeholder="Mensagem"></textarea>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="columns">
+            <div class="">
                 <div class="column is-full">
                     <div class="control">
                         <button class="button is-light is-large is-fullwidth">Enviar</button>
