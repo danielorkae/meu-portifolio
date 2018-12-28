@@ -5,15 +5,15 @@
 				<div class="column">
 					<div class="footer-social">
 						<ul>      
-							<li><a target="_blank" rel="noreferrer" href="https://github.com/Nargarath"><i class="fa fa-github"></i></a></li>  
-							<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mateus-cordeiro-736b83169/"><i class="fa fa-linkedin"></i></a></li>
+							<li><a target="_blank" rel="noreferrer" href="https://github.com/Nargarath"><i class="fa fa-github" alt="github link"></i></a></li>  
+							<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mateus-cordeiro-736b83169/"><i class="fa fa-linkedin" alt="linkedin link"></i></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="column">
 					<div class="copyright">
 						<span>© Copyright CordeiroDev 2018.</span> 
-						<span><a href="http://cordeirodev.com/"><img class="logo invert" src="~/assets/img/logo.png" ></a></span>	   	      
+						<span><a href="http://cordeirodev.com/"><img class="logo invert" src="~/assets/img/logo.png"  alt="cordeirodev logo" ></a></span>	   	      
 					</div>   
 				</div>
 			</div>

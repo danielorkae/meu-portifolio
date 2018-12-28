@@ -10,7 +10,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <input class="input is-large" type="text" placeholder="Nome">
+                            <input class="input is-large" type="text" placeholder="Nome" aria-label="Nome" >
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <input class="input is-large" type="email" placeholder="Email">
+                            <input class="input is-large" type="email" placeholder="Email" aria-label="Email">
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <input class="input is-large" type="text" placeholder="Assunto">
+                            <input class="input is-large" type="text" placeholder="Assunto" aria-label="Assunto">
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <textarea class="textarea" placeholder="Mensagem"></textarea>
+                            <textarea class="textarea" placeholder="Mensagem" aria-label="Mensagem"></textarea>
                         </div>
                     </div>
                 </div>
