@@ -16,8 +16,8 @@
             <div class="container">
                 <div class="footer-social">
                     <ul>      
-                        <li><a target="_blank" href="https://github.com/Nargarath" ><i class="fa fa-github"></i></a></li>  
-                        <li><a target="_blank" href="https://www.linkedin.com/in/mateus-cordeiro-736b83169/" ><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" rel="noreferrer" href="https://github.com/Nargarath" ><i class="fa fa-github"></i></a></li>  
+                        <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mateus-cordeiro-736b83169/" ><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
