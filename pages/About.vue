@@ -1,12 +1,12 @@
 <template>
     <section id="about" class="section">
         <div class="section-intro container">
-   			<h5>Sobre mim</h5>
-   			<h1>Deixe me falar um pouco sobre mim</h1>
+   			<h5>{{$t('about.title')}}</h5>
+   			<h1>{{$t('about.subtitle')}}</h1>
             <div class="columns">
                 <div class="column"></div>
                 <div class="column is-10">
-                    <p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+                    <p class="lead">{{$t('about.text')}}</p>
                 </div>
             </div>
    		</div> 
@@ -14,41 +14,41 @@
             <div class="columns">
                 <div class="column">
                     <div id="profile">
-                        <h3>Perfil</h3>
+                        <h3>{{$t('about.profile.title')}}</h3>
                         <p></p>
                         <ul class="info-list">
                             <li>
-                                <strong>Nome Completo:</strong>
+                                <strong>{{$t('about.profile.name')}}:</strong>
                                 <span>Mateus de Medeiros Cordeiro</span>
                             </li>
                             <li>
-                                <strong>Data de Nascimento:</strong>
+                                <strong>{{$t('about.profile.birthday')}}:</strong>
                                 <span>11/10/1997</span>
                             </li>
                             <li>
-                                <strong>Trabalho:</strong>
+                                <strong>{{$t('about.profile.work')}}:</strong>
                                 <span>Freelancer, Full Stack Developer</span>
                             </li>
                             <li>
-                                <strong>Website:</strong>
+                                <strong>{{$t('about.profile.website')}}:</strong>
                                 <span>http://cordeirodev.com/</span>
                             </li>
                             <li>
-                                <strong>Email:</strong>
+                                <strong>{{$t('about.profile.email')}}:</strong>
                                 <span>contato@cordeirodev.com</span>
                             </li>
                             <li>
-                                <a href="#contact" class="button is-outlined is-large is-fullwidth">Entre em contato</a>
+                                <a href="#contact" class="button is-outlined is-large is-fullwidth">{{$t('about.profile.button.contact')}}</a>
                             </li>
                             <li>
-                                <a class="button is-dark is-large is-fullwidth">Baixar Currículo</a>
+                                <a class="button is-dark is-large is-fullwidth">{{$t('about.profile.button.cv')}}</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="column">
                     <div id="skills">
-                        <h3>Habilidades</h3> 
+                        <h3>{{$t('about.abilities.title')}}</h3> 
                         <p></p>
                         <ul class="info-list">
                             <li>
@@ -88,7 +88,7 @@
                             </li>
                             <li class="arrow-down" v-show="!showExtras">
                                 <div @click="LoadOrUnloadAbilities()">
-                                    <strong>Ver Mais</strong>
+                                    <strong>{{$t('about.abilities.see_more')}}</strong>
                                     <i :class="['fa', showExtrasClicked?'fa-spinner':'fa-arrow-down']" aria-hidden="true"></i>
                                 </div>
                             </li>
@@ -128,7 +128,7 @@
                     <div class="column arrow-down" style="margin-top:1.5rem;" v-show="showExtras">
                         <div @click="LoadOrUnloadAbilities()">
                             <i :class="['fa', showExtrasClicked?'fa-spinner':'fa-arrow-up']" aria-hidden="true"></i>
-                            <strong style="margin-top:-0.8rem;">Ver Menos</strong>
+                            <strong style="margin-top:-0.8rem;">{{$t('about.abilities.see_less')}}</strong>
                             
                         </div>
                     </div>
@@ -136,17 +136,17 @@
             </div>
             </transition>
         </div>
-        <cd-modal :id="'htemlcss-modal'" :background="''" :title="'HTML e CSS3'" :body="'teste'"/>
-        <cd-modal :id="'seo-modal'" :background="''" :title="'SEO'" :body="'teste'"/>
-        <cd-modal :id="'js-modal'" :background="''" :title="'Javascript'" :body="'teste'"/>
-        <cd-modal :id="'vuenuxt-modal'" :background="''" :title="'VueJS e NuxtJS'" :body="'teste'"/>
-        <cd-modal :id="'php-modal'" :background="''" :title="'PHP'" :body="'teste'"/>
-        <cd-modal :id="'laravel-modal'" :background="''" :title="'Laravel'" :body="'teste'"/>
-        <cd-modal :id="'ci-modal'" :background="''" :title="'Codeigniter'" :body="'teste'"/>
-        <cd-modal :id="'bootstrap-modal'" :background="''" :title="'Bootstrap'" :body="'teste'"/>
-        <cd-modal :id="'mysql-modal'" :background="''" :title="'MySQL'" :body="'teste'"/>
-        <cd-modal :id="'bulma-modal'" :background="''" :title="'Bulma'" :body="'teste'"/>
-        <cd-modal :id="'ws-modal'" :background="''" :title="'Web Services'" :body="'teste'"/>
+        <cd-modal :id="'htemlcss-modal'" :background="{}" :title="'HTML e CSS3'" :body="'teste'"/>
+        <cd-modal :id="'seo-modal'" :background="{}" :title="'SEO'" :body="'teste'"/>
+        <cd-modal :id="'js-modal'" :background="{}" :title="'Javascript'" :body="'teste'"/>
+        <cd-modal :id="'vuenuxt-modal'" :background="{}" :title="'VueJS e NuxtJS'" :body="'teste'"/>
+        <cd-modal :id="'php-modal'" :background="{}" :title="'PHP'" :body="'teste'"/>
+        <cd-modal :id="'laravel-modal'" :background="{}" :title="'Laravel'" :body="'teste'"/>
+        <cd-modal :id="'ci-modal'" :background="{}" :title="'Codeigniter'" :body="'teste'"/>
+        <cd-modal :id="'bootstrap-modal'" :background="{}" :title="'Bootstrap'" :body="'teste'"/>
+        <cd-modal :id="'mysql-modal'" :background="{}" :title="'MySQL'" :body="'teste'"/>
+        <cd-modal :id="'bulma-modal'" :background="{}" :title="'Bulma'" :body="'teste'"/>
+        <cd-modal :id="'ws-modal'" :background="{}" :title="'Web Services'" :body="'teste'"/>
     </section>
 </template>
 <script>
@@ -173,6 +173,9 @@ export default {
 }
 </script>
 <style scoped>
+#full-profile{
+    margin-top: 2rem;
+}
 
 .arrow-down{
     text-align: center;

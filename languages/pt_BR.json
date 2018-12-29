@@ -1,0 +1,28 @@
+{
+    "hero":{
+        "subtitle": "Bem-vindo ao meu Portifólio",
+        "button": "mais sobre mim"
+    },
+    "about":{
+        "title": "Sobre mim",
+        "subtitle": "Deixe me falar um pouco sobre mim",
+        "text": "Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.",
+        "profile":{
+            "title": "Perfil",
+            "name": "Nome",
+            "birthday": "Data de nascimento",
+            "work": "Trabalho",
+            "website": "website",
+            "email": "email",
+            "button": {
+                "contact": "Entre em contato",
+                "cv": "Baixar Currículo"
+            }
+        },
+        "abilities":{
+            "title": "Habilidades",
+            "see_more": "Ver mais",
+            "see_less": "Ver menos"
+        }
+    }
+}

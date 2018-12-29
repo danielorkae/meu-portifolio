@@ -1,7 +1,7 @@
 <template>
     <transition name="bounce"> 
         <div v-show="active" :id="id" :class="['modal','is-active']">
-            <div class="modal-background">{{background}}</div>
+            <div :class="['modal-background',background]"></div>
             <div class="modal-card">
                 <header class="modal-card-head">
                     <p class="modal-card-title">{{title}}</p>

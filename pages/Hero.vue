@@ -6,9 +6,9 @@
                     <img class="logo" src="~/assets/img/fulllogo-colored-white.png" alt="Mateus Cordeiro Full Stack Developer" />
                 </h1>
                 <h2 class="subtitle">
-                    Bem-vindo ao meu portifólio.
+                   {{$t('hero.subtitle')}}
                 </h2>
-                <a href="#about" class="button is-large is-outlined hero-button">Mais sobre mim</a>
+                <a href="#about" class="button is-large is-outlined hero-button">{{$t('hero.button')}}</a>
 
             </div>
         </div>

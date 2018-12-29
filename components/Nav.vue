@@ -49,8 +49,10 @@ export default {
     methods:{
 		setLanguage(){
 			if(this.languageFlag == brFlag){
+				this.$router.push(this.switchLocalePath('us'));
 				this.languageFlag = this.usFlag;
 			}else{
+				this.$router.push(this.switchLocalePath('br'));
 				this.languageFlag = this.brFlag;
 			}
 		},

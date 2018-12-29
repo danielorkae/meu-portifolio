@@ -33,7 +33,7 @@ module.exports = {
     name: 'Mateus Cordeiro Full Stack Developer',
     short_name:'CordeiroDev',
     description: 'Esse app mostra as minhas habilidades e experiencias como desenvolvedor full stack.',
-    lang: 'pt-BR',
+    lang: 'pt_BR',
     background_color: "#3273dc",
     theme_color:'#3273dc'
   },
@@ -41,6 +41,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    './plugins/language.js'
     
   ],
 
@@ -53,7 +54,32 @@ module.exports = {
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     '@nuxtjs/font-awesome',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    [
+      'nuxt-i18n',
+      {
+        locales: [
+          {
+            code: 'br',
+            iso: 'pt-BR',
+            name: 'Português Brasileiro',
+          },
+          {
+            code: 'us',
+            iso: 'en-US',
+            name: 'American English'
+          } 
+        ],
+        defaultLocale: 'br',
+        vueI18n: {
+          fallbackLocale: 'br',
+          messages: {
+            us: require('./languages/en_US.json'),
+            br: require('./languages/pt_BR.json')
+          }
+        }
+      }
+    ],
   ],
   /*
   ** Axios module configuration
