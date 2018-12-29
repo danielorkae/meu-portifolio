@@ -8,7 +8,7 @@
                     </div>
                     <h3 class="count">1500</h3>
                     <h5 class="title">
-                        Projetos Concluidos
+                        {{$t('extraInfos.projects')}}
                     </h5>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                     </div>
                     <h3 class="count">1500</h3>
                     <h5 class="title">
-                        Xícaras de café
+                       {{$t('extraInfos.coffee')}}
                     </h5>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                     </div>
                     <h3 class="count">1500</h3>
                     <h5 class="title">
-                        Horas trabalhadas
+                        {{$t('extraInfos.hours')}}
                     </h5>
                 </div>
             </div>
