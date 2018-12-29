@@ -1,4 +1,12 @@
 {
+    "nav":{
+        "hero": "Início",
+        "about": "Sobre",
+        "experiences": "Experiências",
+        "portifolio": "Portifólio",
+        "services": "Serviços",
+        "contact": "Contato"
+    },
     "hero":{
         "subtitle": "Bem-vindo ao meu Portifólio",
         "button": "mais sobre mim"

@@ -14,12 +14,12 @@
             >
             <nav id="main-nav-wrap" v-show="navClicked">
                 <ul :class="['main-navigation']">
-                    <li :class="[CurrentPage=='init'?'current':'']"><a class="smoothscroll"  href="#init" title="">Início</a></li>
-                    <li :class="[CurrentPage=='about'?'current':'']"><a class="smoothscroll"  href="#about" title="">Sobre</a></li>
-                    <li :class="[CurrentPage=='xp'?'current':'']"><a class="smoothscroll"  href="#xp" title="">Experiências</a></li>
-                    <li :class="[CurrentPage=='portifolio'?'current':'']"><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-                    <li :class="[CurrentPage=='services'?'current':'']"><a class="smoothscroll"  href="#services" title="">Serviços</a></li>					
-                    <li :class="[CurrentPage=='contact'?'current':'']"><a class="smoothscroll"  href="#contact" title="">Contato</a></li>	
+                    <li :class="[CurrentPage=='init'?'current':'']"><a class="smoothscroll"  href="#init" title="">{{$t('nav.hero')}}</a></li>
+                    <li :class="[CurrentPage=='about'?'current':'']"><a class="smoothscroll"  href="#about" title="">{{$t('nav.about')}}</a></li>
+                    <li :class="[CurrentPage=='xp'?'current':'']"><a class="smoothscroll"  href="#xp" title="">{{$t('nav.experiences')}}</a></li>
+                    <li :class="[CurrentPage=='portifolio'?'current':'']"><a class="smoothscroll"  href="#portfolio" title="">{{$t('nav.portifolio')}}</a></li>
+                    <li :class="[CurrentPage=='services'?'current':'']"><a class="smoothscroll"  href="#services" title="">{{$t('nav.services')}}</a></li>					
+                    <li :class="[CurrentPage=='contact'?'current':'']"><a class="smoothscroll"  href="#contact" title="">{{$t('nav.contact')}}</a></li>	
                 </ul>
             </nav>    
             </transition>		
