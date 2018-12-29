@@ -24,5 +24,25 @@
             "see_more": "Ver mais",
             "see_less": "Ver menos"
         }
+    },
+    "extraInfos":{
+        "projects": "Projetos Concluídos",
+        "coffee": "Xícaras de Café",
+        "hours": "Horas Trabalhadas"
+    },
+    "contact":{
+        "title": "Contato",
+        "subtitle": "Sempre aberto para propostas",
+        "text": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+        "where": "Onde me achar",
+        "email": "Envie-me um email",
+        "tell": "Ligue-me",
+        "form":{
+            "name": "Nome",
+            "email": "Email",
+            "subject": "Assunto",
+            "message": "Mensagem",
+            "send": "Enviar"
+        }
     }
 }

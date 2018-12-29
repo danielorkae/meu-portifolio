@@ -1,16 +1,16 @@
 <template>
     <section id="contact" class="section">
         <div class="section-intro container">
-   			<h5>Contato</h5>
-   			<h1>Sempre aberto para propostas</h1>
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   			<h5>{{$t('contact.title')}}</h5>
+   			<h1>{{$t('contact.subtitle')}}</h1>
+   			<p class="lead">{{$t('contact.text')}}</p>
    		</div> 
         <div class="contact-form container">
             <div class="">
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <input class="input is-large" type="text" placeholder="Nome" aria-label="Nome" >
+                            <input class="input is-large" type="text" :placeholder="$t('contact.form.name')" :aria-label="$t('contact.form.name')" >
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <input class="input is-large" type="email" placeholder="Email" aria-label="Email">
+                            <input class="input is-large" type="email" :placeholder="$t('contact.form.email')" :aria-label="$t('contact.form.email')">
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <input class="input is-large" type="text" placeholder="Assunto" aria-label="Assunto">
+                            <input class="input is-large" type="text" :placeholder="$t('contact.form.subject')" :aria-label="$t('contact.form.subject')">
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                 <div class="column">
                     <div class="field">
                         <div class="control">
-                            <textarea class="textarea" placeholder="Mensagem" aria-label="Mensagem"></textarea>
+                            <textarea class="textarea" :placeholder="$t('contact.form.message')" :aria-label="$t('contact.form.message')"></textarea>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
             <div class="">
                 <div class="column is-full">
                     <div class="control">
-                        <button class="button is-light is-large is-fullwidth">Enviar</button>
+                        <button class="button is-light is-large is-fullwidth">{{$t('contact.form.send')}}</button>
                     </div>
                 </div>
             </div> 
@@ -57,7 +57,7 @@
                         <div class="icon">
                             <i class="fa fa-map-marker"></i>
                         </div>
-                        <h5 class="heading">Onde me achar?</h5>
+                        <h5 class="heading">{{$t('contact.where')}}?</h5>
                         <p>
                             Natal/RN
                         </p>
@@ -68,7 +68,7 @@
                         <div class="icon">
                             <i class="fa fa-envelope-o"></i>
                         </div>
-                        <h5 class="heading">envie-me um email</h5>
+                        <h5 class="heading">{{$t('contact.email')}}</h5>
                         <p>contato@cordeirodev.com</p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         <div class="icon">
                             <i class="fa fa-phone"></i>
                         </div>
-                        <h5 class="heading">ligue-me</h5>
+                        <h5 class="heading">{{$t('contact.tell')}}</h5>
                         <p>(84) 99868-8427</p>
                     </div>
                 </div>
