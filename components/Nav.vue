@@ -44,9 +44,16 @@ export default {
         }
 	},
 	created(){
-		this.languageFlag = this.brFlag;
+		this.startLanguage();
 	},
     methods:{
+		startLanguage(){
+			if(this.$router.currentRoute.name == 'index___br'){
+				this.languageFlag = this.brFlag;
+			}else{
+				this.languageFlag = this.usFlag;
+			}
+		},
 		setLanguage(){
 			if(this.languageFlag == brFlag){
 				this.$router.push(this.switchLocalePath('us'));
