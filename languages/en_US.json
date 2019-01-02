@@ -2,7 +2,7 @@
     "nav":{
         "hero": "Home",
         "about": "About",
-        "experiences": "Experiences",
+        "career": "Resumo",
         "portifolio": "Portifolio",
         "services": "Services",
         "contact": "Contact"
@@ -34,7 +34,7 @@
         }
     },
     "extraInfos":{
-        "projects": "Projects Completed",
+        "projects": "Requests Completed",
         "coffee": "Coffee cups",
         "hours": "Hour"
     },

@@ -19,7 +19,11 @@ export default{
 </script>
 
 <style>
-  h5, .h05, h6, .h06 {
+
+    .grey-section {
+        background: #ebebeb;
+    }
+    h5, .h05, h6, .h06 {
         font-family: "poppins-bold";
         margin-bottom: 1.2rem;
     }

@@ -2,6 +2,7 @@
     <div>
         <cd-hero/>
         <cd-about/>
+        <cd-career/>
         <cd-infos/>
         <cd-contact/>
     </div>
@@ -11,13 +12,15 @@ import Hero from '~/pages/Hero.vue';
 import About from '~/pages/About.vue';
 import Contact from '~/pages/Contact.vue';
 import ExtraInfos from '~/pages/Infos.vue';
+import Career from '~/pages/Career.vue';
 
 export default{
   components: {
       'cd-hero':Hero,
       'cd-contact':Contact,
       'cd-infos':ExtraInfos,
-      'cd-about':About
+      'cd-about':About,
+      'cd-career':Career
   }
 }
 </script>

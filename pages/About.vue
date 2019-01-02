@@ -4,8 +4,10 @@
    			<h5>{{$t('about.title')}}</h5>
    			<h1>{{$t('about.subtitle')}}</h1>
             <div class="columns">
-                <div class="column"></div>
-                <div class="column is-10">
+                <div class="column">
+                    <img src="~/assets/img/photo.jpg" />
+                </div>
+                <div class="column is-9">
                     <p class="lead">{{$t('about.text')}}</p>
                 </div>
             </div>
@@ -136,17 +138,17 @@
             </div>
             </transition>
         </div>
-        <cd-modal :id="'htemlcss-modal'" :background="{}" :title="'HTML e CSS3'" :body="'teste'"/>
-        <cd-modal :id="'seo-modal'" :background="{}" :title="'SEO'" :body="'teste'"/>
-        <cd-modal :id="'js-modal'" :background="{}" :title="'Javascript'" :body="'teste'"/>
-        <cd-modal :id="'vuenuxt-modal'" :background="{}" :title="'VueJS e NuxtJS'" :body="'teste'"/>
-        <cd-modal :id="'php-modal'" :background="{}" :title="'PHP'" :body="'teste'"/>
-        <cd-modal :id="'laravel-modal'" :background="{}" :title="'Laravel'" :body="'teste'"/>
-        <cd-modal :id="'ci-modal'" :background="{}" :title="'Codeigniter'" :body="'teste'"/>
-        <cd-modal :id="'bootstrap-modal'" :background="{}" :title="'Bootstrap'" :body="'teste'"/>
-        <cd-modal :id="'mysql-modal'" :background="{}" :title="'MySQL'" :body="'teste'"/>
-        <cd-modal :id="'bulma-modal'" :background="{}" :title="'Bulma'" :body="'teste'"/>
-        <cd-modal :id="'ws-modal'" :background="{}" :title="'Web Services'" :body="'teste'"/>
+        <cd-modal :id="'htemlcss-modal'" :background="{}" :title="'HTML e CSS3'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'seo-modal'" :background="{}" :title="'SEO'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'js-modal'" :background="{}" :title="'Javascript'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'vuenuxt-modal'" :background="{}" :title="'VueJS e NuxtJS'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'php-modal'" :background="{}" :title="'PHP'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'laravel-modal'" :background="{}" :title="'Laravel'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'ci-modal'" :background="{}" :title="'Codeigniter'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'bootstrap-modal'" :background="{}" :title="'Bootstrap'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'mysql-modal'" :background="{}" :title="'MySQL'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'bulma-modal'" :background="{}" :title="'Bulma'" :body="'Texto explicando o tema'"/>
+        <cd-modal :id="'ws-modal'" :background="{}" :title="'Web Services'" :body="'Texto explicando o tema'"/>
     </section>
 </template>
 <script>
@@ -173,6 +175,20 @@ export default {
 }
 </script>
 <style scoped>
+.section-intro{
+    max-width: 850px;
+}
+.section-intro img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin: .9rem 0 0 0;
+}
+@media (min-width:922px){
+    .section-intro>.columns{
+        padding-left:4rem;
+    }
+}
 #full-profile{
     margin-top: 2rem;
 }
@@ -207,7 +223,6 @@ export default {
 @media (min-width: 1000px) {
    .lead{
         text-align:left;
-        padding: 0 8rem 0 4rem;
     } 
 }
 

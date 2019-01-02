@@ -6,7 +6,7 @@
                     <div class="icon">
                         <i class="fa fa-code"></i>
                     </div>
-                    <h3 class="count">1500</h3>
+                    <h3 class="count">247</h3>
                     <h5 class="title">
                         {{$t('extraInfos.projects')}}
                     </h5>
@@ -17,7 +17,7 @@
                     <div class="icon">
                         <i class="fa fa-coffee"></i>
                     </div>
-                    <h3 class="count">1500</h3>
+                    <h3 class="count">693</h3>
                     <h5 class="title">
                        {{$t('extraInfos.coffee')}}
                     </h5>
@@ -28,7 +28,7 @@
                     <div class="icon">
                         <i class="fa fa-clock-o"></i>
                     </div>
-                    <h3 class="count">1500</h3>
+                    <h3 class="count">1770</h3>
                     <h5 class="title">
                         {{$t('extraInfos.hours')}}
                     </h5>

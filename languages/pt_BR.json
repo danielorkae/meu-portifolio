@@ -2,7 +2,7 @@
     "nav":{
         "hero": "Início",
         "about": "Sobre",
-        "experiences": "Experiências",
+        "career": "Carreira",
         "portifolio": "Portifólio",
         "services": "Serviços",
         "contact": "Contato"
@@ -14,7 +14,7 @@
     "about":{
         "title": "Sobre mim",
         "subtitle": "Deixe me falar um pouco sobre mim",
-        "text": "Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.",
+        "text": "Profissional Graduando no curso de Bacharelado em Tecnologia da Informação com Ênfase em Engenharia de Software na UFRN com aproximadamente 2 anos de experiência no mercado de TI. Intensa experiência em manutenção e implementação em sistemas legado. Experiente em trabalho em equipe com pensamento estratégico e home office, não limitado a singularidade de tarefa. Atualmente,no Back-end, uso PHP como linguagem e seus frameworks Laravel e Codeigniter; No Front-end , o 'Padrão' Javascript ,HTML5 e CSS3 , porém, além disso, costumo usar VueJS como framework e NuxtJS para renderização SSR. porém, estou todos os dias buscando o auto-aprendizado de tecnologias e funcionalidades novas.",
         "profile":{
             "title": "Perfil",
             "name": "Nome",
@@ -34,7 +34,7 @@
         }
     },
     "extraInfos":{
-        "projects": "Projetos Concluídos",
+        "projects": "Demandas Concluídas",
         "coffee": "Xícaras de Café",
         "hours": "Horas Trabalhadas"
     },

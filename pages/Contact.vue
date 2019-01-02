@@ -3,7 +3,6 @@
         <div class="section-intro container">
    			<h5>{{$t('contact.title')}}</h5>
    			<h1>{{$t('contact.subtitle')}}</h1>
-   			<p class="lead">{{$t('contact.text')}}</p>
    		</div> 
         <div class="contact-form container">
             <div class="">
@@ -181,7 +180,7 @@
         margin-bottom: 5px;
         text-transform: uppercase;
         font-weight: 900;
-        color: rgb(29,130,219);
+        color: rgb(16,166,257);
     }
     .contact-form{
         margin-top: 4rem;
