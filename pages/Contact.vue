@@ -68,7 +68,7 @@
                             <i class="fa fa-envelope-o"></i>
                         </div>
                         <h5 class="heading">{{$t('contact.email')}}</h5>
-                        <p>contato@cordeirodev.com</p>
+                        <a href="mailto:contato@cordeirodev.com">contato@cordeirodev.com</a>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
@@ -77,7 +77,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <h5 class="heading">{{$t('contact.tell')}}</h5>
-                        <p>(84) 99868-8427</p>
+                        <a href="tel:+5584998688427">+55 (84) 99868-8427</a>
                     </div>
                 </div>
             </div>
