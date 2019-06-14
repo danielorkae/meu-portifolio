@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/<repository-name>/'
+  }
+} : {}
+
 module.exports = {
   mode: 'spa',
 
@@ -42,7 +48,7 @@ module.exports = {
   */
   plugins: [
     './plugins/language.js'
-    
+
   ],
 
   /*
@@ -68,7 +74,7 @@ module.exports = {
             code: 'us',
             iso: 'en-US',
             name: 'American English'
-          } 
+          }
         ],
         defaultLocale: 'br',
         vueI18n: {
@@ -103,7 +109,8 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
-  }
+  },
+  ...routerBase
 }
